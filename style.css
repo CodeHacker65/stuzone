@@ -19,5 +19,18 @@ body{
     font-weight: bolder;
     font-family: "Kalam";
     color:black;
-    font-size:20px
+    font-size:20px;
+}
+input{
+    direction: ltr;
+}
+.next{
+    font-size: 20px;
+    width: 200px;
+    font-family: "Kalam";
+}
+.back{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Kalam";
 }
