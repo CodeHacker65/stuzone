@@ -5,7 +5,7 @@ function school_1(){
     window.location="school_1.html";
 }
 function signup(){
-    window.location="select.html";
+    window.location="signup.html";
 }
 function parent_2(){
     window.location="parent_2.html";
