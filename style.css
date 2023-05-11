@@ -44,12 +44,67 @@ h5{
     height: 40px;
     overflow: auto;
 }
-#profile{
+.pareNav label{
     text-align: center;
     float: left;
     color:white;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 5px;
     padding-left: 10px;
     font-family: kalam;
+}
+.pareNav button{
+    margin:5px;
+    margin-left: 20px;
+    width:60px;
+    float: none;
+    text-align: center;
+}
+.pareNav i{
+    font-size: 40px;
+    float:right;
+    padding-right: 20px;
+    color:white
+}
+.modal {
+    margin-top: 10px;
+    margin-left: 40px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    background-color:white;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.modal img{
+    width: 150px;
+    height: 150px;
+}
+@keyframes fadein {
+    from{
+        opacity:0; 
+    }
+    to{
+        opacity:1;
+    }
+}
+.order{
+    text-align: center;
+    background-color: rgb(190, 189, 189);
+    border: 5px solid darkgray;
+    margin:10px;
 }

@@ -15,7 +15,29 @@
      </head>
      <body>
         <div class="pareNav">
-         <a id="profile">Parent Name</a>
+         <label>Parent Name</label>
+         <button class="btn btn-info">Profile</button>
+         <i class="fa fa-qrcode" onclick="qr()"></i>
         </div>
+        <div id="myModal" class="modal">
+         <h2 class="heading">Your QR code</h2>
+         <button class="close" onclick="cl()">&times;</button>
+         <br> 
+         <img src="QR.png">
+         <br><br>
+         <a class="btn btn-success" href="QR.png" download="QR.png">Download</a>
+        </div>
+        <!--When a child orders a new thing a div like this shows up. So if a person
+            has multiple children then he can get see all their orders at once. If there
+            are no orders then it will show there are no orders.-->
+         <!--<h3 class="heading" style="text-align:center">There are no new orders.</h3>-->
+        <div class="order">
+         <h3 class="heading">New Order!!</h3>
+         <h5 class="heading">Name:</h5>
+         <h5 class="heading">Qty:</h5>
+         <h5 class="heading">Total:</h5>
+         <button class="btn btn-info">Review</button>
+        </div>
+        <script src="main.js"></script>
      </body>
 </html>

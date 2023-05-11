@@ -36,3 +36,12 @@ function passVis(){
     z.innerHTML="Show Password";
   }
 }
+var modal = document.getElementById("myModal");
+
+function qr(){
+  modal.style.display = "block";
+  modal.style.animation="fadein .5s";
+}
+function cl(){
+  modal.style.display = "none";
+}
