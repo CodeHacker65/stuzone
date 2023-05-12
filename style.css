@@ -34,7 +34,7 @@ input{
     margin-left: 20px;
     font-family: "Kalam";
 }
-h5{
+.password h5{
     color:red;
     font-weight: bold;
 }
@@ -42,11 +42,10 @@ h5{
     background-color: black;
     width:100%;
     height: 40px;
-    overflow: auto;
 }
 .pareNav label{
     text-align: center;
-    float: left;
+    float: none;
     color:white;
     font-size: 30px;
     padding-top: 5px;
@@ -54,11 +53,10 @@ h5{
     font-family: kalam;
 }
 .pareNav button{
-    margin:5px;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-left:10px;
     width:60px;
-    float: none;
-    text-align: center;
+    font-family: "kalam";
 }
 .pareNav i{
     font-size: 40px;
@@ -107,4 +105,27 @@ h5{
     background-color: rgb(190, 189, 189);
     border: 5px solid darkgray;
     margin:10px;
+}
+.order h5{
+    float: left;
+}
+.order table,td,th{
+    border: 3px solid gray;
+    float: none;
+    padding: 10px;
+    word-wrap: break-word;
+    table-layout:fixed;
+    width:90%;
+    font-family: "Kalam";
+    color:black;
+}
+.order table{
+    margin-left:20px;
+}
+#accept{
+    font-size: 20px;
+}
+#decline{
+    font-size: 20px;
+    margin-left: 50px;
 }

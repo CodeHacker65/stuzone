@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>stuzone</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+           
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" type="text/css" href="style.css">
+     </head>
+     <body>
+        <div class="pareNav">
+            <button class="btn btn-danger" onclick="pareRev()">Back</button>
+            <label>Declined</label>
+        </div>
+        <br>
+        <center>
+            <!--This is there so that the child know why it was declined and can make some modification.-->
+            <h4 class="heading">(Optional)</h4>
+            <h3 class="heading">Leave a note</h3>
+            <textarea id="note" cols="40" rows="5" placeholder="Leave a note" class="btn"></textarea>
+            <br><br>
+            <button class="btn btn-danger" onclick="decline()">Decline</button>
+        </center>
+        <script src="main.js"></script>
+     </body>
+</html>

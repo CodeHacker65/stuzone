@@ -45,3 +45,23 @@ function qr(){
 function cl(){
   modal.style.display = "none";
 }
+function pareDash(){
+  window.location="parent_dashboard.html";
+}
+function pareProf(){
+  window.location="parent_profile.html";
+}
+function pareRev(){
+  window.location="parent_review.html";
+}
+function accept(){
+  window.location="parent_accept.html";
+}
+function decline(){
+  if (document.URL.includes("parent_review.html")){
+    window.location="parent_decline.html";
+  }
+  else{
+    window.location="parent_dashboard.html";
+  }
+}
