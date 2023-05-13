@@ -36,6 +36,18 @@ function passVis(){
     z.innerHTML="Show Password";
   }
 }
+function passVis_2(){
+  var x = document.getElementById("pass");
+  var z = document.getElementById("passVis_2");
+if (x.type === "password"){
+  x.type = "text";
+  z.innerHTML="Hide Password";
+}
+else {
+  x.type = "password";
+  z.innerHTML="Show Password";
+}
+}
 var modal = document.getElementById("myModal");
 
 function qr(){

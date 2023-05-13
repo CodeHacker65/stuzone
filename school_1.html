@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>stuzone</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-          <script src="fabric.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-        <link rel="icon" href="apple.png" type="image/x-icon"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
-      
-        <link rel="stylesheet" type="text/css" href="style.css">
-      </head>
+  <head>
+    <title>stuzone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <button class="btn btn-danger back" onclick="signup()">Back</button>
+
+    <div style="margin-left:50px">
+      <form>
+       <label style="margin-top: 60px;" class="lbl">Enter the</label>
+       <br>
+       <input type="text" class="btn" placeholder="Your fullname">
+       <br><br><br>
+       <label class="lbl" >Enter your child's fullname</label>
+       <br>
+       <input type="text" class="btn" placeholder="Child's fullname">
+       <br><br><br>
+       <label class="lbl" >Enter your child's school name</label>
+       <br>
+       <input type="text" class="btn" placeholder="School's name">
+       <br><br><br>
+         <label class="lbl" >Standard:</label>
+         <select class="btn">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
+           <option value="6">6</option>
+           <option value="7">7</option>
+           <option value="8">8</option>
+           <option value="9">9</option>
+           <option value="10">10</option>
+         </select>
+         <label style="margin-left: 10px;" class="lbl">Section:</label>
+         <select class="btn">
+           <option value="A">A</option>
+           <option value="B">B</option>
+           <option value="C">C</option>
+           <option value="D">D</option>
+           <option value="E">E</option>
+           <option value="F">F</option>
+           <option value="G">G</option>
+         </select>
+       <br><br><br>
+       <label class="lbl" >Enter your Email Id</label>
+       <br>
+       <input type="text" class="btn" placeholder="Email Id">
+       <br><br><br>
+       <label class="lbl">Enter your mobile number</label>
+       <br>
+       <input type="text" class="btn" placeholder="Mobile Number">
+       <br><br><br><br>               
+      </form>
+      <button class="btn btn-success next" onclick="parent_1()">Next</button>
+     </div>
+  </body>
 </html>
