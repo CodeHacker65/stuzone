@@ -56,6 +56,7 @@ input{
     padding-top: 5px;
     padding-left: 10px;
     font-family: kalam;
+    overflow: x;
 }
 .pareNav button{
     margin-bottom: 20px;
@@ -133,4 +134,10 @@ input{
 #decline{
     font-size: 20px;
     margin-left: 50px;
+}
+.productImg{
+    float: left;
+    border:2px solid black;
+    width:187.5px;
+    height:187.5px;
 }

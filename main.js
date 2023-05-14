@@ -7,19 +7,27 @@ function school_1(){
 function signup(){
     window.location="signup.html";
 }
-function parent_1(){
-    window.location="parent_1.html";
+function parPass(){
+  window.location="parent_password.html";
+}
+function schoPass(){
+  window.location="school_password.html";
 }
 function index(){
-    window.location="index.html";
+  window.location="index.html";
 }
 function parent_confirm(){
-    if (document.getElementById("password").value == document.getElementById("password_conf").value){
-        window.location="parent_dashboard.html";
-    }
-    else{
-        document.getElementById("nosame").innerHTML="The passwords are not the same!!";
-    }
+  if (document.getElementById("password").value == document.getElementById("password_conf").value 
+     && document.getElementById("password").value != ""
+     && document.getElementById("password_conf").value != ""){
+    window.location="school_verify.html";
+  }
+  else if(document.getElementById("password").value == "" && document.getElementById("password").value == ""){
+    document.getElementById("nosame").innerHTML="The passwords can't be empty!!";
+  }
+  else{
+    document.getElementById("nosame").innerHTML="The passwords are not the same!!";
+  }
 }
 function passVis(){
     var x = document.getElementById("password");
@@ -75,5 +83,18 @@ function decline(){
   }
   else{
     window.location="parent_dashboard.html";
+  }
+}
+function schoVerify(){
+  if (document.getElementById("password").value == document.getElementById("password_conf").value 
+     && document.getElementById("password").value != ""
+     && document.getElementById("password_conf").value != ""){
+    window.location="school_verify.html";
+  }
+  else if(document.getElementById("password").value == "" && document.getElementById("password").value == ""){
+    document.getElementById("nosame").innerHTML="The passwords can't be empty!!";
+  }
+  else{
+    document.getElementById("nosame").innerHTML="The passwords are not the same!!";
   }
 }
