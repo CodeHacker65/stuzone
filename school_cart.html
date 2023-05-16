@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stuzone</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="pareNav">
+            <i class="fa fa-home" onclick="home()"></i>
+            <label>Cart</label>
+        </div>
+        <div class="order">
+            <br><br>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty.</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Chocolate 100g</td>
+                    <td>1</td>
+                    <td>₹10</td>
+                </tr>
+                <tr>
+                    <td>Lays 200g</td>
+                    <td>1</td>
+                    <td>₹20</td>
+                </tr>
+                <tr>
+                    <td>Sandwitch</td>
+                    <td>1</td>
+                    <td>₹20</td>
+                </tr>
+                <tr>
+                    <td>Lolipop</td>
+                    <td>2</td>
+                    <td>₹5</td>
+                </tr>
+                <tr>
+                    <td>Pav Bhaji</td>
+                    <td>1</td>
+                    <td>₹10</td>
+                </tr>
+            </table>
+            <h3 class="heading">Total: <span class="total">₹70</span></h3>
+        </div>
+        <br><br>
+        <center>
+            <button class="btn btn-success">Scan QR Code</button>
+            <br>
+            <!--After scanning-->
+            <button class="btn btn-success" onclick="confirm()">Send to Parent</button>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

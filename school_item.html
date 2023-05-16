@@ -15,19 +15,27 @@
     <body>
         <div class="pareNav"> 
             <label>School Name</label>
-            <i class="fa fa-plus" onclick="additem()"></i>
-            <i class="fa fa-user-circle-o" onclick="schoProf()"></i>
+            <i class="fa fa-home" onclick="home()"></i>
             <i class="fa fa-shopping-cart" onclick="cart()"></i>
         </div>
-        <!--There will be more images but this is just an example.-->
-        <span onclick="item()" class="item">
+        <div class="item_summary">
             <img src="apple.png">
-            <label class="lbl">Item Name</label>
+            <br><br>
+            <h4 class="heading">Item Name</h4>
+            <h4 class="heading">Price </h4>
+            <span>
+                <button class="btn btn-info" style="color:white;">Update</button>
+                <label class="lbl stoc">Stock:</label>
+            </span>
+            <p class="btn heading">Description</p>
             <br>
-            <label class="lbl">Price</label>
-            <br>
-            <label class="lbl">Stock:</label>
-        </span>
+            <button class="btn btn-success" id="add" onclick="modify()">ADD</button>
+            <span id="modify" style="display:none;">
+                <button class="btn btn-success" id="plus" onclick="add()">&plus;</button>
+                <label id="amt">1</label>
+                <button class="btn btn-danger" id="minus" onclick="minus()">&minus;</button>
+            </span>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>

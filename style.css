@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(29, 222, 228); 
+    background-color: rgb(172, 214, 246); 
 }
 .heading{
     font-weight: bolder;
@@ -47,16 +47,16 @@ input{
     background-color: black;
     width:100%;
     height: 40px;
+    overflow: auto;
+    white-space: nowrap;
 }
 .pareNav label{
-    text-align: center;
-    float: none;
-    color:white;
-    font-size: 30px;
-    padding-top: 5px;
-    padding-left: 10px;
+    float: left;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top:2.49px;
+    margin-left: 10px;
     font-family: kalam;
-    overflow: x;
 }
 .pareNav button{
     margin-bottom: 20px;
@@ -66,9 +66,8 @@ input{
 }
 .pareNav i{
     font-size: 40px;
-    float:right;
-    padding-right: 20px;
-    color:white
+    margin-left:2.5%;
+    color:white;
 }
 .modal {
     margin-top: 10px;
@@ -108,7 +107,7 @@ input{
 }
 .order{
     text-align: center;
-    background-color: rgb(190, 189, 189);
+    background-color: rgb(166, 190, 239);
     border: 5px solid darkgray;
     margin:10px;
 }
@@ -135,9 +134,45 @@ input{
     font-size: 20px;
     margin-left: 50px;
 }
-.productImg{
+.item{
+    background-color: rgb(128, 219, 255);
+    border: 5px solid darkgray;
+    margin-left:5px;
+    margin-right:5px;
+    width:97%;
+    height:auto;
+    display: inline-block;
+}
+.item img{
     float: left;
-    border:2px solid black;
-    width:187.5px;
-    height:187.5px;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.item label{
+    display: inline;
+}
+.item_summary{
+    text-align:center;
+}
+#amt{
+    background-color: white;
+    font-weight: bolder;
+    font-family: "Kalam";
+    font-size:25px;
+    color:black;
+}
+.item_summary p{
+    background-color: rgb(128, 219, 255);
+    width:80%;
+}
+.item_summary image{
+    width: 200px;
+    height: 200px;
+}
+.stoc{
+    margin-right:80px;
 }

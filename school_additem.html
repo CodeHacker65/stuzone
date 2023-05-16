@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stuzone</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <style>
+            h5{
+                color:red;
+                font-weight: bolder;
+                font-family: "Kalam";
+            }
+        </style>
+        <div class="pareNav">
+            <i class="fa fa-home" onclick="home()"></i>
+            <label>Profile</label>
+        </div>
+        <center style="margin-top: 50px;">
+            <button class="btn btn-info">Upload<i class="fa fa-upload"></i></button>
+            <div>
+                <h5 style="margin-right:140px;">Make sure that:</h5>
+                <h5 style="margin-right:100px;">1)The image is a square!</h5>
+                <h5 style="margin-right:100px;">2)The item is well seen!</h5>
+                <h5>3)There isn't any unnecesary background!</h5>
+            </div>
+            <br><br>
+            <form>
+                <label class="lbl">Enter the item name</label>
+                <br>
+                <input type="text" class="btn" placeholder="Item name">
+                <br><br><br>
+                <label class="lbl">Enter the item price</label>
+                <br>
+                <input type="text" class="btn" placeholder="Item price">
+                <br><br><br>
+            </form>
+            <button class="btn btn-success" onclick="home()">Add Item</button>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

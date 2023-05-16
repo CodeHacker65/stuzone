@@ -98,3 +98,41 @@ function schoVerify(){
     document.getElementById("nosame").innerHTML="The passwords are not the same!!";
   }
 }
+function item(){
+  window.location="school_item.html";
+}
+function home(){
+  window.location="school_dashboard.html";
+}
+function modify(){
+  document.getElementById("add").style.display="none";
+  document.getElementById("modify").style.display="block";
+}
+function add(){
+  var amt = document.getElementById("amt").innerHTML;
+  amt=Number(amt);
+  amt++;
+  amt=String(amt)
+  document.getElementById("amt").innerHTML=amt;
+}
+function minus(){
+  var amt = document.getElementById("amt").innerHTML;
+  amt=Number(amt);
+  if(amt != 0){
+    amt--;
+  }
+  amt=String(amt)
+  document.getElementById("amt").innerHTML=amt;
+}
+function schoProf(){
+  window.location="school_profile.html";
+}
+function additem(){
+  window.location="school_additem.html";
+}
+function cart(){
+  window.location="school_cart.html";
+}
+function confirm(){
+  window.location="school_confirmation.html";
+}
