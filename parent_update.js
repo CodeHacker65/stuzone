@@ -44,4 +44,5 @@ function parPass() {
         console.error('There was an error sending the data:', error);
         // You can display an error message to the user here
     });
+    window.location="parent-1.html";
 }
