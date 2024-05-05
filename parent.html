@@ -18,7 +18,7 @@
       <button class="btn btn-danger back" onclick="signup()">Back</button>
       
        <div style="margin-left:50px">
-        <form>
+        <form id="myForm" action="/submit-form" method="POST">
          <label style="margin-top: 60px;" class="lbl">Enter your fullname</label>
          <br>
          <input type="text" class="btn" placeholder="Your fullname">
@@ -67,6 +67,6 @@
         <button class="btn btn-success next" onclick="parPass()">Next</button>
        </div>
       
-     <script src="parent_update.js"></script>  
+     <script src="server.js"></script>  
   </body>
 </html>
